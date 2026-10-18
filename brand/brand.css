@@ -1,0 +1,20 @@
+/* PETTO brand base. Every design links this file: <link rel="stylesheet" href="../brand/brand.css"> */
+@font-face{font-family:"Bricolage Grotesque";font-weight:700;src:url(fonts/bricolage-grotesque-latin-700-normal.woff2) format("woff2")}
+@font-face{font-family:"Bricolage Grotesque";font-weight:800;src:url(fonts/bricolage-grotesque-latin-800-normal.woff2) format("woff2")}
+@font-face{font-family:"DM Sans";font-weight:400;src:url(fonts/dm-sans-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:"DM Sans";font-weight:500;src:url(fonts/dm-sans-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"DM Sans";font-weight:700;src:url(fonts/dm-sans-latin-700-normal.woff2) format("woff2")}
+
+:root{
+  --cream:#FCF3EC; --blush:#F3DED1; --clay:#A65F47; --clay-dark:#8E4A35;
+  --navy:#1E2A3B; --slate:#4A5464; --peach:#F0A98C; --sage:#3E6B44;
+}
+html,body{margin:0;padding:0}
+.post{width:1080px;height:1350px;box-sizing:border-box;position:relative;overflow:hidden;
+  font-family:"DM Sans",sans-serif;color:var(--navy)}
+.display{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;letter-spacing:-0.03em;line-height:0.98;margin:0}
+.wordmark{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;font-size:34px;letter-spacing:0.06em}
+.pill{display:inline-block;padding:8px 16px;border-radius:999px;background:var(--blush);color:var(--clay-dark);
+  font-size:20px;font-weight:700;letter-spacing:0.04em}
+.cta{display:inline-block;padding:18px 30px;border-radius:999px;background:var(--clay);color:#fff;font-size:24px;font-weight:700}
+.logo{width:64px;height:64px;border-radius:16px;display:block}
