@@ -1,0 +1,24 @@
+{
+  "voice": "af_heart",
+  "speed": 1.0,
+  "music_volume": 0.30,
+  "cues": [
+    {"t": 0.3, "sfx": "whoosh"},
+    {"t": 0.4, "text": "My dog left me a review. And honestly? It's brutal."},
+    {"t": 1.2, "sfx": "pop"},
+    {"t": 5.5, "sfx": "whoosh"},
+    {"t": 6.0, "text": "Four stars out of five. Belly rubs? Excellent."},
+    {"t": 6.6, "sfx": "pop"},
+    {"t": 11.5, "sfx": "pop"},
+    {"t": 11.5, "text": "But five more minutes means forty, apparently."},
+    {"t": 14.6, "sfx": "pop"},
+    {"t": 14.6, "text": "Just one piece of cheese. Rude."},
+    {"t": 17.6, "sfx": "pop"},
+    {"t": 17.6, "text": "But hey, I always come back. That has to count."},
+    {"t": 21.5, "sfx": "whoosh"},
+    {"t": 21.8, "text": "Want the fifth star? PETTO reminds you about walks."},
+    {"t": 24.4, "sfx": "ding"},
+    {"t": 26.5, "sfx": "whoosh"},
+    {"t": 26.6, "text": "PETTO. Free on iOS and Android."}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "voice": "af_heart",
+  "speed": 1.0,
+  "music_volume": 0.30,
+  "cues": [
+    {"t": 0.3, "sfx": "whoosh"},
+    {"t": 0.4, "text": "Did anyone feed the dog? Ask around, and everyone says not me."},
+    {"t": 2.4, "sfx": "pop"},
+    {"t": 5.5, "sfx": "whoosh"},
+    {"t": 5.8, "text": "Here's the fix. PETTO sends one reminder to your phone, right when it's time."},
+    {"t": 6.6, "sfx": "pop"},
+    {"t": 13, "sfx": "whoosh"},
+    {"t": 13.3, "text": "Meals, meds and walks all live in one simple list. Tick each one off as you go."},
+    {"t": 14.8, "sfx": "pop"},
+    {"t": 17.3, "sfx": "pop"},
+    {"t": 19.8, "sfx": "ding"},
+    {"t": 23, "sfx": "whoosh"},
+    {"t": 23.2, "text": "Your dog will still say you forgot."},
+    {"t": 26.5, "sfx": "whoosh"},
+    {"t": 26.6, "text": "PETTO. Free on iOS and Android."}
+  ]
+}
