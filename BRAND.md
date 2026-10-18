@@ -19,6 +19,15 @@
   logo at least 100px away from the left and right edges.
 - No gradient washes, no stock-photo look, no lorem ipsum, no invented numbers.
 
+## Assets
+- Library: images in `brand/assets/`, described in `brand/ASSETS.md` (what each shows, which post types it suits, light or dark).
+- Use 1–2 assets from `brand/assets/` in most posts, with the path `../brand/assets/<file>`.
+- Rotate: don't use an asset that appeared in any of the last 8 `queue.json` entries (their `"assets"` lists).
+- Keep the PETTO system around them: brand colours, fonts, rounded corners (28–32px).
+- Never stretch images: always use `object-fit: cover` or `object-fit: contain`.
+- Keep assets that contain faces or text away from the 100px side margins.
+- Text-only designs are still fine sometimes, for variety.
+
 ## Post mix per day (4 posts)
 1. **Morning – Useful tip** (light): a real, safe, general pet-care tip, plus how PETTO helps.
 2. **Lunch – Fun** (dark): pet humour formats like "if your cat could text", "honest dog review", "your day vs theirs", "things your pet is judging you for".

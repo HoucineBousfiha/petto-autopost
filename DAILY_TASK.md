@@ -6,6 +6,8 @@ You are running unattended. Do all steps without asking questions.
    `posts/fun3-honest-cat-review.png` and `posts/fun4-your-day-vs-theirs.png`: they are real PETTO
    posts, so match their style, colours, layout quality and humour. Look at the last ~12 entries of
    `queue.json` so today's ideas don't repeat recent topics or formats.
+   Read `brand/ASSETS.md`. If `brand/assets/` has files not listed in `brand/ASSETS.md`, look at them
+   and add them to the table.
 2. Use today's date as `D` (YYYY-MM-DD). If `designs/D-1.html` already exists, today's posts were already made: stop.
 3. Write 4 designs following the daily mix in `BRAND.md`: `designs/D-1.html` … `designs/D-4.html`.
    Each is a full HTML page that links `../brand/brand.css`, has `<div class="post">` as its root (1080×1350),
@@ -19,7 +21,8 @@ You are running unattended. Do all steps without asking questions.
 5. Look at every JPEG (open the image). Fix and re-render any design with overflowing or cut-off text,
    overlapping elements, low contrast or empty areas.
 6. Append 4 entries to the end of `queue.json`, in order 1→4:
-   `{"image": "D-1.jpg", "caption": "...", "posted_at": null}`
+   `{"image": "D-1.jpg", "caption": "...", "assets": ["file1.png", ...], "posted_at": null}`
+   `assets` lists the `brand/assets/` file names the design uses (`[]` for text-only), so rotation can be tracked.
    Keep it valid JSON and don't change existing entries.
 7. Commit (`Daily posts D`) and push to the `main` branch (`git push origin HEAD:main`).
    If the push is rejected, run `git pull --rebase origin main` and push again.
