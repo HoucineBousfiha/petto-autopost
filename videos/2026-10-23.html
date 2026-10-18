@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../brand/brand.css">
+<title>One app for every pet</title>
+<style>
+  .stage{width:1080px;height:1920px;position:relative;overflow:hidden;background:var(--cream);
+    font-family:"DM Sans",sans-serif;color:var(--navy)}
+  /* safe zone: 200px top, 420px bottom, 110px sides */
+  .scene{position:absolute;inset:0;padding:200px 110px 420px;box-sizing:border-box;display:flex;flex-direction:column;
+    justify-content:center;opacity:0}
+  .light{background:var(--cream);color:var(--navy)}
+  .dark{background:var(--navy);color:#fff}
+  h1,h2,h3{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;letter-spacing:-.03em;line-height:.98;margin:0}
+  .light h1 span,.light h2 span{color:var(--clay)}
+  .dark h1 span,.dark h2 span{color:var(--peach)}
+  .sub{font-size:48px;line-height:1.2;margin:0}
+  .light .sub{color:var(--slate)} .dark .sub{color:#C9D1DC}
+  .photo{width:860px;border-radius:40px;object-fit:cover;display:block}
+  .phone{position:relative;align-self:center;border:14px solid var(--navy);border-radius:60px;overflow:hidden;background:#fff;
+    box-shadow:0 40px 80px rgba(30,42,59,.22)}
+  .phone img{position:absolute;left:0;width:100%;display:block}
+  .endc{align-items:center;text-align:center;gap:44px;background:var(--cream);color:var(--navy)}
+  .endc .wordmark{font-size:72px;color:var(--clay)}
+  .endc h3{font-size:84px;line-height:1;letter-spacing:-.02em}
+  .endc .cta{font-size:44px;padding:30px 56px}
+  .endc .lg{width:220px;height:220px;border-radius:52px}
+  .endc .lg3d{width:300px;height:300px;object-fit:contain}
+  .sE{animation:show .6s 26.5s both}
+  .sE img{animation:pop .6s 26.7s both}
+  .sE .wordmark{animation:rise .5s 27s both}
+  .sE h3{animation:rise .5s 27.2s both}
+  .sE .cta{animation:pop .5s 27.6s both}
+  @keyframes show{from{opacity:0}to{opacity:1}}
+  @keyframes hide{from{opacity:1}to{opacity:0}}
+  @keyframes rise{from{opacity:0;transform:translateY(60px)}to{opacity:1;transform:none}}
+  @keyframes pop{0%{opacity:0;transform:scale(.6)}70%{transform:scale(1.05)}100%{opacity:1;transform:scale(1)}}
+  @keyframes slideL{from{opacity:0;transform:translateX(-80px)}to{opacity:1;transform:none}}
+  @keyframes slideR{from{opacity:0;transform:translateX(80px)}to{opacity:1;transform:none}}
+  @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+  @keyframes wag{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+  @keyframes zoom{from{transform:scale(1)}to{transform:scale(1.12)}}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-18px)}}
+
+  .s1{animation:show 0s 0s both, hide .5s 5.5s forwards}
+  .s2{animation:show .5s 5.5s both, hide .5s 15s forwards}
+  .s3{animation:show .5s 15s both, hide .5s 26.5s forwards}
+  .s1{gap:48px}
+  .s1 h1{font-size:124px;animation:rise .7s .1s both}
+  .s1 .photo{height:620px;object-position:50% 50%;animation:pop .6s 1.2s both}
+  .s1 .sub{animation:rise .6s 2.2s both}
+  .s2{gap:44px}
+  .s2 h2{font-size:104px;animation:rise .6s 5.8s both}
+  .s2 .phone{width:700px;height:760px;animation:rise .7s 6.5s both}
+  .s2 .phone img{bottom:0}
+  .s2 .sub{animation:rise .6s 8.3s both}
+  .s3{gap:40px}
+  .s3 h2{font-size:100px;animation:rise .6s 15.3s both}
+  .s3 .phone{width:760px;height:640px;animation:rise .7s 16s both}
+  .s3 .phone img{top:-600px}
+  .bubble{background:var(--clay);color:#fff;border-radius:40px 40px 40px 12px;padding:34px 42px;font-size:42px;line-height:1.25;
+    animation:pop .5s 18.5s both}
+  .bubble b{display:block;font-size:44px;margin-bottom:8px}
+
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <section class="scene light s1">
+    <h1>A dog, a cat <span>and a parrot?</span></h1>
+    <img class="photo" src="../brand/assets/petto-plus-main-bg-img.png" alt="Dog, corgi, cat, rabbit, guinea pig, tortoise and budgie together">
+    <p class="sub">One app for all of them.</p>
+  </section>
+  <section class="scene light s2">
+    <h2>Switch pets <span>in one tap.</span></h2>
+    <div class="phone"><img src="../brand/assets/switch-btwn-pets.png" alt="PETTO pet switcher with Charlotte the dog and Kiwi the bird"></div>
+    <p class="sub">Each pet gets their own routine.</p>
+  </section>
+  <section class="scene light s3">
+    <h2>Describe them <span>in your words.</span></h2>
+    <div class="phone"><img src="../brand/assets/describe-screen-add-pet2.png" alt="Adding Kiwi the parrot by describing him"></div>
+    <div class="bubble"><b>It even spots mix-ups.</b>Notes say dog. Photo says parrot. PETTO asks you to check.</div>
+  </section>
+
+  <section class="scene endc sE">
+    <img class="lg3d" src="../brand/assets/app-logo.png" alt="PETTO app icon">
+    <span class="wordmark">PETTO</span>
+    <h3>Every pet. One calm app.</h3>
+    <span class="cta">Free on iOS &amp; Android</span>
+  </section>
+</div>
+</body>
+</html>

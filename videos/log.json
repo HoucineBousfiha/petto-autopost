@@ -1,0 +1,9 @@
+[
+  {"date": "2026-10-19", "idea": "Feature: 'Did anyone feed the dog?' - reminders + home care list with tick-offs", "assets": ["onboarding-reminders.png", "home-screen.png"]},
+  {"date": "2026-10-20", "idea": "Fun: if your cat could text you (Mochi's breakfast complaints)", "assets": ["auth-screen-bg.png", "app-logo.png"]},
+  {"date": "2026-10-21", "idea": "Tip: can dogs eat apples? 3 rules + ask PETTO AI", "assets": ["assistant-chat-bg.png", "ai-assistant-screen3.png"]},
+  {"date": "2026-10-22", "idea": "Fun: honest dog review of their human, 4 stars, fifth star = never miss a walk", "assets": ["onboarding-ready.png", "screen-bg-shapes.png"]},
+  {"date": "2026-10-23", "idea": "Feature: one app for every pet - switch pets, describe in your own words, AI spots mix-ups", "assets": ["petto-plus-main-bg-img.png", "switch-btwn-pets.png", "describe-screen-add-pet2.png", "app-logo.png"]},
+  {"date": "2026-10-24", "idea": "Tip: 4 things to note before a vet visit + health records", "assets": ["onboarding-daily-care.png", "healt-records-sreen.png"]},
+  {"date": "2026-10-25", "idea": "Fun: your Sunday vs your pet's Sunday timeline", "assets": ["petto-plus-bg-img.png"]}
+]

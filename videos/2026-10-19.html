@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../brand/brand.css">
+<title>Did anyone feed the dog?</title>
+<style>
+  .stage{width:1080px;height:1920px;position:relative;overflow:hidden;background:var(--cream);
+    font-family:"DM Sans",sans-serif;color:var(--navy)}
+  /* safe zone: 200px top, 420px bottom, 110px sides */
+  .scene{position:absolute;inset:0;padding:200px 110px 420px;box-sizing:border-box;display:flex;flex-direction:column;
+    justify-content:center;opacity:0}
+  .light{background:var(--cream);color:var(--navy)}
+  .dark{background:var(--navy);color:#fff}
+  h1,h2,h3{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;letter-spacing:-.03em;line-height:.98;margin:0}
+  .light h1 span,.light h2 span{color:var(--clay)}
+  .dark h1 span,.dark h2 span{color:var(--peach)}
+  .sub{font-size:48px;line-height:1.2;margin:0}
+  .light .sub{color:var(--slate)} .dark .sub{color:#C9D1DC}
+  .photo{width:860px;border-radius:40px;object-fit:cover;display:block}
+  .phone{position:relative;align-self:center;border:14px solid var(--navy);border-radius:60px;overflow:hidden;background:#fff;
+    box-shadow:0 40px 80px rgba(30,42,59,.22)}
+  .phone img{position:absolute;left:0;width:100%;display:block}
+  .endc{align-items:center;text-align:center;gap:44px;background:var(--cream);color:var(--navy)}
+  .endc .wordmark{font-size:72px;color:var(--clay)}
+  .endc h3{font-size:84px;line-height:1;letter-spacing:-.02em}
+  .endc .cta{font-size:44px;padding:30px 56px}
+  .endc .lg{width:220px;height:220px;border-radius:52px}
+  .endc .lg3d{width:300px;height:300px;object-fit:contain}
+  .sE{animation:show .6s 26.5s both}
+  .sE img{animation:pop .6s 26.7s both}
+  .sE .wordmark{animation:rise .5s 27s both}
+  .sE h3{animation:rise .5s 27.2s both}
+  .sE .cta{animation:pop .5s 27.6s both}
+  @keyframes show{from{opacity:0}to{opacity:1}}
+  @keyframes hide{from{opacity:1}to{opacity:0}}
+  @keyframes rise{from{opacity:0;transform:translateY(60px)}to{opacity:1;transform:none}}
+  @keyframes pop{0%{opacity:0;transform:scale(.6)}70%{transform:scale(1.05)}100%{opacity:1;transform:scale(1)}}
+  @keyframes slideL{from{opacity:0;transform:translateX(-80px)}to{opacity:1;transform:none}}
+  @keyframes slideR{from{opacity:0;transform:translateX(80px)}to{opacity:1;transform:none}}
+  @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+  @keyframes wag{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+  @keyframes zoom{from{transform:scale(1)}to{transform:scale(1.12)}}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-18px)}}
+
+  .s1{animation:show 0s 0s both, hide .5s 5.5s forwards}
+  .s2{animation:show .5s 5.5s both, hide .5s 13s forwards}
+  .s3{animation:show .5s 13s both, hide .5s 23s forwards}
+  .s4{animation:show .5s 23s both, hide .5s 26.5s forwards}
+  .s1{gap:56px}
+  .s1 h1{font-size:136px;animation:rise .7s .1s both}
+  .s1 .sub{animation:rise .6s 1.6s both}
+  .bowl{width:200px;height:200px;animation:pop .6s 2.4s both, wag 1.4s 3s infinite}
+  .s2{gap:48px}
+  .s2 h2{font-size:104px;animation:rise .6s 5.8s both}
+  .s2 .frame{width:860px;height:820px;border-radius:40px;overflow:hidden;animation:rise .7s 6.6s both}
+  .s2 .frame img{width:100%;height:100%;object-fit:cover;object-position:50% 40%;animation:zoom 7s 6.6s both}
+  .s2 .sub{animation:rise .6s 8.2s both}
+  .s3{gap:44px}
+  .s3 h2{font-size:96px;animation:rise .6s 13.3s both}
+  .s3 .wrap{position:relative;align-self:center}
+  .s3 .phone{width:600px;height:860px;animation:rise .7s 13.8s both}
+  .s3 .phone img{top:0}
+  .toasts{position:absolute;right:-60px;bottom:40px;display:flex;flex-direction:column;gap:20px;align-items:flex-end}
+  .toast{display:flex;align-items:center;gap:20px;padding:22px 34px 22px 22px;border-radius:999px;background:#fff;
+    font-size:40px;font-weight:700;box-shadow:0 20px 50px rgba(30,42,59,.25)}
+  .toast i{width:62px;height:62px;border-radius:50%;background:var(--sage);display:flex;align-items:center;justify-content:center}
+  .toast i svg{width:38px;height:38px}
+  .t1{animation:pop .45s 14.8s both}.t2{animation:pop .45s 17.3s both}.t3{animation:pop .45s 19.8s both}
+  .s4 h2{font-size:120px;animation:rise .6s 23.2s both}
+
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <section class="scene light s1">
+    <h1>Did anyone feed <span>the dog?</span></h1>
+    <p class="sub">Everyone at home: "not me."</p>
+    <svg class="bowl" viewBox="0 0 24 24" fill="none" stroke="#A65F47" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h18l-1.5 6a2 2 0 0 1-2 1.5h-11a2 2 0 0 1-2-1.5z"/><path d="M8 9c0-1 1-2 2-2M14 8c0-1.5 1-2.5 2.5-2.5"/></svg>
+  </section>
+  <section class="scene light s2">
+    <h2>One reminder. <span>No guessing.</span></h2>
+    <div class="frame"><img src="../brand/assets/onboarding-reminders.png" alt="Phone showing a PETTO reminder: time to feed Max"></div>
+    <p class="sub">PETTO tells you when it's time.</p>
+  </section>
+  <section class="scene light s3">
+    <h2>Meals, meds, walks. <span>One list.</span></h2>
+    <div class="wrap">
+      <div class="phone"><img src="../brand/assets/home-screen.png" alt="PETTO home screen with today's care list"></div>
+      <div class="toasts">
+        <div class="toast t1"><i><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></i>Breakfast: done</div>
+        <div class="toast t2"><i><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></i>Supplement: done</div>
+        <div class="toast t3"><i><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></i>Morning walk: done</div>
+      </div>
+    </div>
+  </section>
+  <section class="scene dark s4">
+    <h2>Your dog will still say <span>you forgot.</span></h2>
+  </section>
+
+  <section class="scene endc sE">
+    <img class="lg" src="../brand/logo.png" alt="PETTO logo">
+    <span class="wordmark">PETTO</span>
+    <h3>Know what your pet needs today.</h3>
+    <span class="cta">Free on iOS &amp; Android</span>
+  </section>
+</div>
+</body>
+</html>
