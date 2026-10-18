@@ -1,14 +1,13 @@
 """Render an animated HTML design to a 1080x1920 MP4 (TikTok / Reels).
 Usage: python render_video.py videos/2026-10-19.html [--seconds 30] [--fps 30]
-Output: videos/<same-name>.mp4
+Output: videos/<same-name>.silent.mp4  (no sound; GitHub Actions adds voice + music -> videos/<name>.mp4)
 
 How animation works: write normal CSS @keyframes / transitions (or Web Animations).
 The renderer pauses every animation and steps time frame by frame, so the
 output is smooth and identical every run. Optional: define window.seek = (t) => {...}
 in the page for JS-driven motion (t = seconds).
-If brand/audio/ contains .mp3/.m4a files, one is picked (by date) as background music.
 """
-import argparse, datetime, shutil, subprocess, sys
+import argparse, shutil, subprocess, sys
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
@@ -33,13 +32,6 @@ SEEK_JS = """(t) => {
 }"""
 
 
-def pick_audio():
-    tracks = sorted(p for p in (ROOT / "brand" / "audio").glob("*") if p.suffix.lower() in (".mp3", ".m4a", ".wav"))
-    if not tracks:
-        return None
-    return tracks[datetime.date.today().toordinal() % len(tracks)]
-
-
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("html")
@@ -48,8 +40,7 @@ def main():
     args = ap.parse_args()
 
     src = Path(args.html).resolve()
-    out = src.with_suffix(".mp4")
-    silent = src.with_name(src.stem + "_silent.mp4")
+    silent = src.with_name(src.stem + ".silent.mp4")
     frames = int(args.seconds * args.fps)
     ff = ffmpeg_bin()
 
@@ -72,17 +63,7 @@ def main():
     if enc.wait() != 0:
         sys.exit("ffmpeg encoding failed")
 
-    audio = pick_audio()
-    if audio:
-        fade_at = max(args.seconds - 2, 0)
-        subprocess.run([ff, "-y", "-loglevel", "error", "-i", str(silent), "-i", str(audio),
-                        "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "160k",
-                        "-af", f"afade=t=in:d=0.5,afade=t=out:st={fade_at}:d=2", "-shortest", str(out)], check=True)
-        silent.unlink()
-        print("music:", audio.name)
-    else:
-        silent.replace(out)
-    print("rendered", out.relative_to(ROOT))
+    print("rendered", silent.relative_to(ROOT))
 
 
 if __name__ == "__main__":

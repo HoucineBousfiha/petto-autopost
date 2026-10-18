@@ -1,0 +1,24 @@
+{
+  "voice": "af_heart",
+  "speed": 1.0,
+  "music_volume": 0.30,
+  "cues": [
+    {"t": 0.3, "sfx": "whoosh"},
+    {"t": 0.6, "text": "Ever wondered what your dog would text you?"},
+    {"t": 1.4, "sfx": "pop"},
+    {"t": 5.5, "sfx": "whoosh"},
+    {"t": 6.0, "text": "Meet Charlotte. It's six thirty. Dinner time."},
+    {"t": 7.0, "sfx": "pop"},
+    {"t": 9.5, "sfx": "pop"},
+    {"t": 10.0, "text": "One minute late, and the messages start."},
+    {"t": 12.5, "sfx": "pop"},
+    {"t": 15.5, "sfx": "pop"},
+    {"t": 16.0, "text": "Eighteen minutes later? She's eyeing the couch."},
+    {"t": 18.5, "sfx": "pop"},
+    {"t": 21.0, "sfx": "whoosh"},
+    {"t": 21.4, "text": "PETTO reminds you before the complaints begin."},
+    {"t": 24.3, "sfx": "ding"},
+    {"t": 26.0, "sfx": "whoosh"},
+    {"t": 26.5, "text": "PETTO. Free on iOS and Android."}
+  ]
+}
