@@ -1,0 +1,20 @@
+name: Refresh Instagram token
+
+on:
+  schedule:
+    - cron: "23 4 1,15 * *"
+  workflow_dispatch: {}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Refresh and store token
+        env:
+          OLD: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          NEW=$(curl -s "https://graph.instagram.com/refresh_access_token?grant_type=ig_refresh_token&access_token=$OLD" | jq -r .access_token)
+          if [ -z "$NEW" ] || [ "$NEW" = "null" ]; then echo "Refresh failed"; exit 1; fi
+          gh secret set IG_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY" --body "$NEW"
+          echo "Token refreshed"
