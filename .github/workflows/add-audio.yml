@@ -1,0 +1,52 @@
+name: Add voice and music to videos
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "videos/**"
+      - "brand/audio/**"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: add-audio
+  cancel-in-progress: false
+
+jobs:
+  audio:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install kokoro-onnx soundfile numpy
+      - name: Cache voice model
+        uses: actions/cache@v4
+        with:
+          path: .kokoro
+          key: kokoro-v1.0
+      - name: Download free Kokoro voice model (first run only)
+        run: |
+          mkdir -p .kokoro
+          cd .kokoro
+          [ -f kokoro-v1.0.onnx ] || curl -sSL -o kokoro-v1.0.onnx https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
+          [ -f voices-v1.0.bin ] || curl -sSL -o voices-v1.0.bin https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
+          ls -la
+      - name: Add voice, sound effects and music
+        run: python add_audio.py
+      - name: Save finished videos
+        run: |
+          git config user.name "petto-bot"
+          git config user.email "petto-bot@users.noreply.github.com"
+          git add videos/*.mp4
+          if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
+          git commit -m "Add voice and music to videos"
+          git pull --rebase origin main
+          git push origin HEAD:main
