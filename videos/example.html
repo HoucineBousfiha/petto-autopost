@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../brand/brand.css">
+<title>Example video: if your dog could text</title>
+<style>
+  .stage{width:1080px;height:1920px;position:relative;overflow:hidden;background:var(--navy);
+    font-family:"DM Sans",sans-serif;color:#fff}
+  .scene{position:absolute;inset:0;padding:180px 110px;box-sizing:border-box;display:flex;flex-direction:column;opacity:0}
+  /* scene timing (30s total) */
+  .s1{animation:show 0s 0s both, hide .5s 5.5s both}
+  .s2{animation:show .5s 5.5s both, hide .5s 21s both}
+  .s3{animation:show .5s 21s both, hide .5s 26s both}
+  .s4{animation:show .6s 26s both}
+  @keyframes show{from{opacity:0}to{opacity:1}}
+  @keyframes hide{from{opacity:1}to{opacity:0}}
+  @keyframes rise{from{opacity:0;transform:translateY(60px)}to{opacity:1;transform:none}}
+  @keyframes pop{0%{opacity:0;transform:scale(.6)}70%{transform:scale(1.05)}100%{opacity:1;transform:scale(1)}}
+  @keyframes wag{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+  @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+
+  .s1{justify-content:center;gap:48px}
+  .s1 h1{font-size:132px;animation:rise .8s .3s both}
+  .s1 h1 span{color:var(--peach)}
+  .s1 .paw{width:180px;height:180px;animation:pop .6s 1.4s both, wag 1.2s 2s infinite}
+  .s1 p{font-size:44px;color:#C9D1DC;animation:rise .6s 2.4s both}
+
+  .s2{gap:30px;justify-content:center}
+  .head{display:flex;align-items:center;gap:22px;margin-bottom:24px;animation:rise .5s 5.8s both}
+  .head .av{width:96px;height:96px;border-radius:50%;background:var(--blush);display:flex;align-items:center;justify-content:center}
+  .head b{font-size:44px}.head small{display:block;font-size:30px;color:#AEB7C4}
+  .msg{align-self:flex-start;max-width:760px;padding:30px 38px;border-radius:40px 40px 40px 12px;
+    background:rgba(255,255,255,.1);font-size:46px;line-height:1.25}
+  .msg i{display:block;font-style:normal;font-size:28px;color:#AEB7C4;margin-top:8px}
+  .m1{animation:pop .45s 7s both}.m2{animation:pop .45s 9.5s both}.m3{animation:pop .45s 12.5s both}
+  .m4{animation:pop .45s 15.5s both}.m5{animation:pop .45s 18.5s both}
+
+  .s3{justify-content:center;gap:56px}
+  .s3 h2{font-size:96px;line-height:1;animation:rise .6s 21.3s both}
+  .s3 h2 span{color:var(--peach)}
+  .card{display:flex;align-items:center;gap:30px;padding:40px;border-radius:44px;background:var(--clay);
+    box-shadow:0 40px 80px rgba(0,0,0,.35);animation:rise .6s 22.3s both, pulse 1.6s 23.5s 2}
+  .card img{width:110px;height:110px;border-radius:26px}
+  .card b{font-size:40px;display:block}.card span{font-size:44px}
+  .check{align-self:center;width:140px;height:140px;border-radius:50%;background:var(--sage);
+    display:flex;align-items:center;justify-content:center;animation:pop .5s 24.3s both}
+
+  .s4{justify-content:center;align-items:center;text-align:center;gap:44px;background:var(--cream);color:var(--navy)}
+  .s4 img{width:220px;height:220px;border-radius:52px;animation:pop .6s 26.3s both}
+  .s4 .wordmark{font-size:72px;color:var(--clay);animation:rise .5s 26.8s both}
+  .s4 h3{font-family:"Bricolage Grotesque";font-weight:800;font-size:84px;line-height:1;margin:0;letter-spacing:-.02em;animation:rise .5s 27.2s both}
+  .s4 .cta{font-size:44px;padding:30px 56px;animation:pop .5s 27.8s both}
+</style>
+</head>
+<body>
+<div class="stage">
+  <section class="scene s1">
+    <svg class="paw" viewBox="0 0 24 24" fill="none" stroke="#F0A98C" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="5.5" cy="10" r="2"/><circle cx="9.5" cy="5.5" r="2"/><circle cx="14.5" cy="5.5" r="2"/><circle cx="18.5" cy="10" r="2"/><path d="M12 12c-3 0-5 3-5 5.5 0 1.5 1.2 2.5 2.7 2.5.9 0 1.5-.5 2.3-.5s1.4.5 2.3.5c1.5 0 2.7-1 2.7-2.5C17 15 15 12 12 12z"/></svg>
+    <h1 class="display">If your dog could <span>text you…</span></h1>
+    <p>Charlotte has thoughts.</p>
+  </section>
+
+  <section class="scene s2">
+    <div class="head"><span class="av"><svg width="54" height="54" viewBox="0 0 24 24" fill="none" stroke="#8E4A35" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="5.5" cy="10" r="2"/><circle cx="9.5" cy="5.5" r="2"/><circle cx="14.5" cy="5.5" r="2"/><circle cx="18.5" cy="10" r="2"/><path d="M12 12c-3 0-5 3-5 5.5 0 1.5 1.2 2.5 2.7 2.5.9 0 1.5-.5 2.3-.5s1.4.5 2.3.5c1.5 0 2.7-1 2.7-2.5C17 15 15 12 12 12z"/></svg></span>
+      <div><b>Charlotte</b><small>good girl · online</small></div></div>
+    <div class="msg m1">it's dinner time.<i>6:30 PM</i></div>
+    <div class="msg m2">it WAS dinner time.<i>6:31 PM</i></div>
+    <div class="msg m3">I can see the bottom of my bowl.<i>6:36 PM</i></div>
+    <div class="msg m4">you said "in a minute" 18 minutes ago.<i>6:48 PM</i></div>
+    <div class="msg m5">fine. I'll eat the couch.<i>6:52 PM</i></div>
+  </section>
+
+  <section class="scene s3">
+    <h2 class="display">Get the reminder <span>before the complaints.</span></h2>
+    <div class="card"><img src="../brand/logo.png" alt="PETTO logo"><div><b>PETTO · 6:30 PM</b><span>Dinner for Charlotte. Tap to tick it off.</span></div></div>
+    <div class="check"><svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+  </section>
+
+  <section class="scene s4">
+    <img src="../brand/logo.png" alt="PETTO logo">
+    <span class="wordmark">PETTO</span>
+    <h3>Know what your pet needs today.</h3>
+    <span class="cta">Free on iOS &amp; Android</span>
+  </section>
+</div>
+</body>
+</html>
