@@ -15,6 +15,8 @@
 - Logo: `<img class="logo" src="../brand/logo.png" alt="PETTO logo">` next to the `PETTO` wordmark, on every post.
 - Icons: simple inline stroke SVG (stroke-width 2, round caps). **No emoji in the designs** (emoji are fine in captions).
 - Generous padding: 80–96px sides.
+- Instagram's profile grid crops posts to 3:4, so keep all text and the
+  logo at least 100px away from the left and right edges.
 - No gradient washes, no stock-photo look, no lorem ipsum, no invented numbers.
 
 ## Post mix per day (4 posts)
