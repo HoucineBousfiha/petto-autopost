@@ -1,0 +1,67 @@
+{
+  "voice": "am_michael",
+  "speed": 1.0,
+  "music_volume": 0.3,
+  "cues": [
+    {
+      "t": 0.3,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 0.4,
+      "text": "Is your dog drinking enough? Here are three easy water habits."
+    },
+    {
+      "t": 1.0,
+      "sfx": "pop"
+    },
+    {
+      "t": 5.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 6.2,
+      "text": "One. Fresh water every day. Even if the bowl looks fine."
+    },
+    {
+      "t": 6.2,
+      "sfx": "pop"
+    },
+    {
+      "t": 10.8,
+      "text": "Two. Wash the bowl. A quick scrub keeps it inviting."
+    },
+    {
+      "t": 10.8,
+      "sfx": "pop"
+    },
+    {
+      "t": 15.4,
+      "text": "Three. Notice big changes. If something seems off, ask your vet."
+    },
+    {
+      "t": 15.4,
+      "sfx": "pop"
+    },
+    {
+      "t": 21,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 21.4,
+      "text": "PETTO helps you notice changes early."
+    },
+    {
+      "t": 24.3,
+      "sfx": "ding"
+    },
+    {
+      "t": 26,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 26.5,
+      "text": "PETTO. Free on iOS and Android."
+    }
+  ]
+}

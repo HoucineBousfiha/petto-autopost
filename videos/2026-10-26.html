@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../brand/brand.css">
+<title>Video: POV your cat at 3 a.m.</title>
+<style>
+  .stage{width:1080px;height:1920px;position:relative;overflow:hidden;font-family:"DM Sans",sans-serif}
+  .dark{background:var(--navy);color:#fff}.light{background:var(--cream);color:var(--navy)}
+  .scene{position:absolute;inset:0;padding:200px 110px 420px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;opacity:0}
+  @keyframes show{from{opacity:0}to{opacity:1}}
+  @keyframes hide{from{opacity:1}to{opacity:0}}
+  @keyframes rise{from{opacity:0;transform:translateY(60px)}to{opacity:1;transform:none}}
+  @keyframes pop{0%{opacity:0;transform:scale(.6)}70%{transform:scale(1.05)}100%{opacity:1;transform:scale(1)}}
+  @keyframes wag{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+  @keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+  .h1{font-size:122px;margin:0}
+  .dark .acc{color:var(--peach)}.light .acc{color:var(--clay)}
+  .sub{font-size:48px;margin:40px 0 0}
+  .dark .sub{color:#C9D1DC}.light .sub{color:var(--slate)}
+  .paw{width:170px;height:170px;margin-bottom:36px}
+  .head{display:flex;align-items:center;gap:22px;margin-bottom:30px}
+  .head .av{width:96px;height:96px;border-radius:50%;background:var(--blush);display:flex;align-items:center;justify-content:center}
+  .head b{font-size:46px}.head small{display:block;font-size:30px;color:#AEB7C4}
+  .msg{align-self:flex-start;max-width:800px;padding:30px 38px;border-radius:40px 40px 40px 12px;margin-bottom:26px;
+    background:rgba(255,255,255,.1);font-size:48px;line-height:1.22}
+  .msg i{display:block;font-style:normal;font-size:28px;color:#AEB7C4;margin-top:8px}
+  .msg.me{align-self:flex-end;border-radius:40px 40px 12px 40px;background:var(--clay);color:#fff}
+  .msg.me i{color:#F3DED1}
+  .light .msg:not(.me){background:#fff;box-shadow:0 14px 40px rgba(30,42,59,.10)}
+  .light .msg i{color:var(--slate)}
+  .h2{font-size:100px;margin:0 0 50px}
+  .card{display:flex;align-items:center;gap:30px;padding:40px;border-radius:44px;background:var(--clay);color:#fff;
+    box-shadow:0 30px 70px rgba(0,0,0,.25)}
+  .card img{width:110px;height:110px;border-radius:26px;flex:none}
+  .card b{font-size:40px;display:block;margin-bottom:6px}.card span{font-size:44px;line-height:1.15;display:block}
+  .check{align-self:center;margin-top:50px;width:140px;height:140px;border-radius:50%;background:var(--sage);
+    display:flex;align-items:center;justify-content:center}
+  .tip{display:flex;gap:34px;align-items:flex-start;padding:38px 40px;border-radius:40px;background:#fff;
+    box-shadow:0 14px 40px rgba(30,42,59,.10);margin-bottom:30px}
+  .tip .n{flex:none;width:96px;height:96px;border-radius:50%;background:var(--clay);color:#fff;font-family:"Bricolage Grotesque";
+    font-weight:800;font-size:56px;display:flex;align-items:center;justify-content:center}
+  .tip b{display:block;font-family:"Bricolage Grotesque";font-weight:800;font-size:58px;line-height:1.02;margin-bottom:10px}
+  .tip span{font-size:42px;line-height:1.22;color:var(--slate)}
+  .dark .tip{background:rgba(255,255,255,.09);box-shadow:none}
+  .dark .tip span{color:#C9D1DC}.dark .tip .n{background:var(--peach);color:var(--navy)}
+  .frame{border-radius:44px;overflow:hidden;box-shadow:0 30px 70px rgba(30,42,59,.25);position:relative}
+  .frame img{display:block}
+  .stars{display:flex;gap:10px;margin:10px 0 18px}
+  .rev{padding:44px 48px;border-radius:44px;background:rgba(255,255,255,.09);margin-bottom:34px}
+  .rev h4{font-family:"Bricolage Grotesque";font-weight:800;font-size:60px;margin:0 0 4px;letter-spacing:-.02em}
+  .rev p{font-size:48px;line-height:1.2;margin:0;color:#E4E9F0}
+  .end{align-items:center;text-align:center;gap:44px;background:var(--cream);color:var(--navy)}
+  .end img{width:220px;height:220px;border-radius:52px}
+  .end .wordmark{font-size:72px;color:var(--clay)}
+  .end h3{font-family:"Bricolage Grotesque";font-weight:800;font-size:84px;line-height:1;margin:0;letter-spacing:-.02em}
+  .end .cta{font-size:44px;padding:30px 56px}
+
+    .s1{animation:show 0s 0s both, hide .5s 5.5s both}
+  .s2{animation:show .5s 5.5s both, hide .5s 21s both}
+  .s3{animation:show .5s 21s both, hide .5s 26s both}
+  .s4{animation:show .6s 26s both}
+</style>
+</head>
+<body>
+<div class="stage dark">
+  <section class="scene s1 ">
+    <svg class="paw" style="animation:pop 0.6s 1.4s both, wag 1.2s 2s infinite" viewBox="0 0 24 24" fill="none" stroke="#F0A98C" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="5.5" cy="10" r="2"/><circle cx="9.5" cy="5.5" r="2"/><circle cx="14.5" cy="5.5" r="2"/><circle cx="18.5" cy="10" r="2"/><path d="M12 12c-3 0-5 3-5 5.5 0 1.5 1.2 2.5 2.7 2.5.9 0 1.5-.5 2.3-.5s1.4.5 2.3.5c1.5 0 2.7-1 2.7-2.5C17 15 15 12 12 12z"/></svg>
+    <h1 class="h1 display" style="animation:rise 0.8s 0.3s both">POV: it's 3 a.m. and your cat has <span class='acc'>big plans.</span></h1>
+    <p class="sub" style="animation:rise 0.6s 2.4s both">Mochi is awake.</p>
+  </section>
+  <section class="scene s2 ">
+    <div class="head" style="animation:rise 0.5s 6.1s both"><span class="av"><svg width="54" height="54" viewBox="0 0 24 24" fill="none" stroke="#8E4A35" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="5.5" cy="10" r="2"/><circle cx="9.5" cy="5.5" r="2"/><circle cx="14.5" cy="5.5" r="2"/><circle cx="18.5" cy="10" r="2"/><path d="M12 12c-3 0-5 3-5 5.5 0 1.5 1.2 2.5 2.7 2.5.9 0 1.5-.5 2.3-.5s1.4.5 2.3.5c1.5 0 2.7-1 2.7-2.5C17 15 15 12 12 12z"/></svg></span><div><b>Mochi</b><small>tabby · online</small></div></div>
+    <div class="msg" style="animation:pop 0.45s 6.8s both">hi. are you awake? you are now.<i>3:02 AM</i></div>
+    <div class="msg" style="animation:pop 0.45s 10.2s both">I knocked your glass off. for science.<i>3:05 AM</i></div>
+    <div class="msg" style="animation:pop 0.45s 13.6s both">my bowl is empty. emotionally.<i>3:09 AM</i></div>
+    <div class="msg" style="animation:pop 0.45s 17.0s both">I'm sitting on your face. this is a meeting.<i>3:12 AM</i></div>
+
+  </section>
+  <section class="scene s3 ">
+    <h2 class="h2 display" style="animation:rise 0.6s 21.3s both">Fed already? <span class='acc'>Prove it.</span></h2>
+    <div class="card" style="animation:rise 0.6s 22.3s both, pulse 1.6s 23.5s 2"><img src="../brand/logo.png" alt="PETTO logo"><div><b>PETTO · 7:00 AM</b><span>Breakfast for Mochi. Ticked off.</span></div></div>
+    <div class="check" style="animation:pop 0.5s 24.3s both"><svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+  </section>
+  <section class="scene s4 end">
+    <img src="../brand/logo.png" alt="PETTO logo" style="animation:pop 0.6s 26.3s both">
+    <span class="wordmark" style="animation:rise 0.5s 26.8s both">PETTO</span>
+    <h3 style="animation:rise 0.5s 27.2s both">Know what your pet needs today.</h3>
+    <span class="cta" style="animation:pop 0.5s 27.8s both">Free on iOS &amp; Android</span>
+  </section>
+</div>
+</body>
+</html>

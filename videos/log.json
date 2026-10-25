@@ -5,5 +5,12 @@
   {"date": "2026-10-22", "idea": "Fun: honest dog review of their human, 4 stars, fifth star = never miss a walk", "voice": "af_heart", "assets": ["onboarding-ready.png", "screen-bg-shapes.png"]},
   {"date": "2026-10-23", "idea": "Feature: one app for every pet - switch pets, describe in your own words, AI spots mix-ups", "voice": "am_michael", "assets": ["petto-plus-main-bg-img.png", "switch-btwn-pets.png", "describe-screen-add-pet2.png", "app-logo.png"]},
   {"date": "2026-10-24", "idea": "Tip: 4 things to note before a vet visit + health records", "voice": "af_bella", "assets": ["onboarding-daily-care.png", "healt-records-sreen.png"]},
-  {"date": "2026-10-25", "idea": "Fun: your Sunday vs your pet's Sunday timeline", "voice": "af_heart", "assets": ["petto-plus-bg-img.png"]}
+  {"date": "2026-10-25", "idea": "Fun: your Sunday vs your pet's Sunday timeline", "voice": "af_heart", "assets": ["petto-plus-bg-img.png"]},
+  {"date": "2026-10-26", "idea": "Fun: POV your cat at 3 a.m. texting (Mochi) + meal log tick-off", "voice": "af_bella", "assets": []},
+  {"date": "2026-10-27", "idea": "Tip: three water habits for dogs (fresh water, wash bowl, notice changes - ask your vet)", "voice": "am_michael", "assets": ["onboarding-daily-care.png"]},
+  {"date": "2026-10-28", "idea": "Feature: tell PETTO AI 'remind me about the pill at 9pm' -> reminder + health record", "voice": "af_heart", "assets": ["ai-assistant-screen.png"]},
+  {"date": "2026-10-29", "idea": "Fun: honest review - cat rates the new bed 1 star, the box 5 stars", "voice": "af_bella", "assets": []},
+  {"date": "2026-10-30", "idea": "Tip: Halloween pet safety - candy high, costumes early, quiet room (ask your vet)", "voice": "af_heart", "assets": []},
+  {"date": "2026-10-31", "idea": "Fun: Halloween - the stages of putting a pet in a costume", "voice": "am_michael", "assets": ["add-pet-bg.png"]},
+  {"date": "2026-11-01", "idea": "Feature: PETTO home-screen widget - the whole care day at a glance", "voice": "af_heart", "assets": ["widget.png"]}
 ]

@@ -1,0 +1,75 @@
+{
+  "voice": "af_bella",
+  "speed": 1.0,
+  "music_volume": 0.3,
+  "cues": [
+    {
+      "t": 0.3,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 0.4,
+      "text": "POV: it's three a.m., and your cat has big plans for you."
+    },
+    {
+      "t": 1.4,
+      "sfx": "pop"
+    },
+    {
+      "t": 5.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 6.0,
+      "text": "Meet Mochi. She's awake, and she'd like a word."
+    },
+    {
+      "t": 6.8,
+      "sfx": "pop"
+    },
+    {
+      "t": 10.2,
+      "text": "Glass knocked off. For science."
+    },
+    {
+      "t": 10.2,
+      "sfx": "pop"
+    },
+    {
+      "t": 13.6,
+      "text": "Her bowl is empty. Emotionally."
+    },
+    {
+      "t": 13.6,
+      "sfx": "pop"
+    },
+    {
+      "t": 17.0,
+      "text": "Now she's sitting on your face. It's a meeting."
+    },
+    {
+      "t": 17.0,
+      "sfx": "pop"
+    },
+    {
+      "t": 21,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 21.4,
+      "text": "Log her meals in PETTO, so everyone knows she's fed."
+    },
+    {
+      "t": 24.3,
+      "sfx": "ding"
+    },
+    {
+      "t": 26,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 26.5,
+      "text": "PETTO. Free on iOS and Android."
+    }
+  ]
+}
