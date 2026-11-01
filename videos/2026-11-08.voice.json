@@ -1,0 +1,75 @@
+{
+  "voice": "af_heart",
+  "speed": 1.0,
+  "music_volume": 0.3,
+  "cues": [
+    {
+      "t": 0.3,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 0.6,
+      "text": "POV: you spelled the word walk, very quietly, in front of the dog."
+    },
+    {
+      "t": 5.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 7,
+      "sfx": "pop"
+    },
+    {
+      "t": 7,
+      "text": "Charlotte heard that. She's already off the couch."
+    },
+    {
+      "t": 10.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 10.5,
+      "text": "Seven seconds later, she's at the door."
+    },
+    {
+      "t": 14,
+      "sfx": "pop"
+    },
+    {
+      "t": 14,
+      "text": "Looking at you. Looking at the leash."
+    },
+    {
+      "t": 17.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 17.5,
+      "text": "Six minutes later, you're still looking for your shoes."
+    },
+    {
+      "t": 21.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 21.8,
+      "text": "PETTO reminds you about the walk."
+    },
+    {
+      "t": 22.8,
+      "sfx": "pop"
+    },
+    {
+      "t": 24.4,
+      "sfx": "ding"
+    },
+    {
+      "t": 26,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 26.5,
+      "text": "PETTO. Free on iOS and Android."
+    }
+  ]
+}

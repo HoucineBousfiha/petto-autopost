@@ -1,0 +1,67 @@
+{
+  "voice": "am_michael",
+  "speed": 1.0,
+  "music_volume": 0.3,
+  "cues": [
+    {
+      "t": 0.3,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 0.6,
+      "text": "A list of things your cat is judging you for."
+    },
+    {
+      "t": 5.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 6.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 6.5,
+      "text": "Number one. Sitting on the couch right at dinner time."
+    },
+    {
+      "t": 10.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 10.5,
+      "text": "Number two. Eating a snack and not sharing."
+    },
+    {
+      "t": 14.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 14.5,
+      "text": "Number three. Closing the bathroom door. Rude."
+    },
+    {
+      "t": 18.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 18.5,
+      "text": "Number four. Leaving for work. Again."
+    },
+    {
+      "t": 22.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 22.8,
+      "text": "Don't give her another reason. PETTO reminds you."
+    },
+    {
+      "t": 26,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 26.5,
+      "text": "PETTO. Free on iOS and Android."
+    }
+  ]
+}

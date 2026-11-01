@@ -1,0 +1,67 @@
+{
+  "voice": "af_heart",
+  "speed": 1.0,
+  "music_volume": 0.3,
+  "cues": [
+    {
+      "t": 0.3,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 0.6,
+      "text": "Rainy day, restless dog? Try three easy indoor games."
+    },
+    {
+      "t": 5.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 6.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 6.5,
+      "text": "One. Hide a few treats and let her sniff them out."
+    },
+    {
+      "t": 11,
+      "sfx": "pop"
+    },
+    {
+      "t": 11,
+      "text": "Two. Roll a treat in a towel for a snuffle game."
+    },
+    {
+      "t": 15.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 15.5,
+      "text": "Three. Practise a short trick, a few minutes at a time."
+    },
+    {
+      "t": 20,
+      "sfx": "pop"
+    },
+    {
+      "t": 20,
+      "text": "Little treats still count towards the daily meal."
+    },
+    {
+      "t": 23,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 23.4,
+      "text": "PETTO helps you log meals and walks."
+    },
+    {
+      "t": 26,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 26.5,
+      "text": "PETTO. Free on iOS and Android."
+    }
+  ]
+}

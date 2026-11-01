@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../brand/brand.css">
+<title>Fun: things your cat is judging you for</title>
+<style>
+.stage{width:1080px;height:1920px;position:relative;overflow:hidden;background:var(--navy);font-family:"DM Sans",sans-serif;color:#fff}
+.scene{position:absolute;inset:0;padding:200px 110px 420px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;gap:40px;opacity:0}
+.dark{background:var(--navy);color:#fff}.light{background:var(--cream);color:var(--navy)}
+@keyframes show{from{opacity:0}to{opacity:1}}
+@keyframes hide{from{opacity:1}to{opacity:0}}
+@keyframes rise{from{opacity:0;transform:translateY(60px)}to{opacity:1;transform:none}}
+@keyframes pop{0%{opacity:0;transform:scale(.6)}70%{transform:scale(1.05)}100%{opacity:1;transform:scale(1)}}
+@keyframes wag{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.06)}}
+h1,h2{font-family:"Bricolage Grotesque",sans-serif;font-weight:800;letter-spacing:-.03em;line-height:.98;margin:0}
+h1{font-size:128px}h2{font-size:100px}
+.dark h1 span,.dark h2 span{color:var(--peach)}.light h1 span,.light h2 span{color:var(--clay)}
+.sub{font-size:46px;line-height:1.25;margin:0}.dark .sub{color:#C9D1DC}.light .sub{color:var(--slate)}
+.paw{width:170px;height:170px}
+.msg{align-self:flex-start;max-width:800px;padding:30px 38px;border-radius:40px 40px 40px 12px;font-size:48px;line-height:1.25}
+.dark .msg{background:rgba(255,255,255,.1)}.light .msg{background:var(--blush)}
+.msg i{display:block;font-style:normal;font-size:30px;margin-top:8px;opacity:.65}
+.head{display:flex;align-items:center;gap:22px;margin-bottom:10px}
+.head .av{width:96px;height:96px;border-radius:50%;background:var(--blush);display:flex;align-items:center;justify-content:center}
+.head b{font-size:46px}.head small{display:block;font-size:30px;opacity:.65}
+.stars{display:flex;gap:10px}.stars .on{fill:var(--peach);stroke:var(--peach)}.stars .off{fill:none;stroke:#7C879A}
+.item{display:flex;align-items:center;gap:34px;padding:36px 40px;border-radius:36px;font-size:48px;line-height:1.2;font-weight:500}
+.light .item{background:#fff;box-shadow:0 20px 50px rgba(30,42,59,.10)}.dark .item{background:rgba(255,255,255,.1)}
+.num{flex:none;width:92px;height:92px;border-radius:50%;background:var(--clay);color:#fff;font-family:"Bricolage Grotesque";font-weight:800;font-size:54px;display:flex;align-items:center;justify-content:center}
+.dark .num{background:var(--peach);color:var(--navy)}
+.card{display:flex;align-items:center;gap:30px;padding:40px;border-radius:44px;background:var(--clay);color:#fff;box-shadow:0 40px 80px rgba(0,0,0,.30)}
+.card img{width:110px;height:110px;border-radius:26px;flex:none}.card b{font-size:40px;display:block}.card span{font-size:44px;line-height:1.2}
+.check{align-self:center;width:130px;height:130px;border-radius:50%;background:var(--sage);display:flex;align-items:center;justify-content:center}
+.phone{align-self:center;width:520px;height:800px;border-radius:64px;border:14px solid var(--navy);overflow:hidden;box-shadow:0 40px 80px rgba(30,42,59,.25);background:#fff}
+.phone img{width:100%;height:100%;object-fit:cover;object-position:top;display:block}
+.chip{align-self:flex-start;padding:22px 40px;border-radius:999px;background:var(--blush);color:var(--clay-dark);font-size:44px;font-weight:700}
+.dark .chip{background:rgba(240,169,140,.18);color:var(--peach)}
+.end{align-items:center;text-align:center;gap:44px;background:var(--cream);color:var(--navy)}
+.end img{width:220px;height:220px;border-radius:52px}
+.end .wordmark{font-family:"Bricolage Grotesque";font-weight:800;font-size:72px;letter-spacing:.06em;color:var(--clay)}
+.end h3{font-family:"Bricolage Grotesque";font-weight:800;font-size:84px;line-height:1;margin:0;letter-spacing:-.02em}
+.end .cta{font-size:46px;padding:30px 56px;background:var(--clay);color:#fff;border-radius:999px;font-weight:700}
+</style>
+</head>
+<body>
+<div class="stage">
+<section class="scene dark" style="animation:show 0s 0s both, hide .5s 5.5s forwards"><svg class="paw" style="animation:pop .6s 1.2s both, wag 1.2s 1.8s infinite" viewBox="0 0 24 24" fill="none" stroke="#F0A98C" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="5.5" cy="10" r="2"/><circle cx="9.5" cy="5.5" r="2"/><circle cx="14.5" cy="5.5" r="2"/><circle cx="18.5" cy="10" r="2"/><path d="M12 12c-3 0-5 3-5 5.5 0 1.5 1.2 2.5 2.7 2.5.9 0 1.5-.5 2.3-.5s1.4.5 2.3.5c1.5 0 2.7-1 2.7-2.5C17 15 15 12 12 12z"/></svg><h1 style="animation:rise 0.8s 0.3s both">Things your cat is <span>judging you for</span></h1><p class="sub" style="animation:rise 0.6s 2.4s both">A list. Written by her.</p></section>
+<section class="scene dark" style="animation:show 0.5s 5.5s both, hide .5s 22.5s forwards"><div class="item" style="animation:pop 0.5s 6.5s both"><span class="num">1</span><span>Sitting on the couch at dinner time</span></div><div class="item" style="animation:pop 0.5s 10.5s both"><span class="num">2</span><span>Eating a snack without sharing</span></div><div class="item" style="animation:pop 0.5s 14.5s both"><span class="num">3</span><span>Closing the bathroom door</span></div><div class="item" style="animation:pop 0.5s 18.5s both"><span class="num">4</span><span>Leaving for work. Again.</span></div></section>
+<section class="scene dark" style="animation:show 0.5s 22.5s both, hide .5s 26s forwards"><h2 style="animation:rise 0.6s 22.8s both">Forgot dinner? <span>Not today.</span></h2></section>
+<section class="scene end" style="animation:show 0.5s 26s both"><img src="../brand/logo.png" alt="PETTO logo" style="animation:pop 0.6s 26.3s both"><span class="wordmark" style="animation:rise 0.5s 26.8s both">PETTO</span><h3 style="animation:rise 0.5s 27.2s both">What is your cat judging you for?</h3><span class="cta" style="animation:pop 0.5s 27.8s both">Free on iOS &amp; Android</span></section>
+</div>
+</body>
+</html>

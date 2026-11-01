@@ -1,0 +1,75 @@
+{
+  "voice": "af_bella",
+  "speed": 1.0,
+  "music_volume": 0.3,
+  "cues": [
+    {
+      "t": 0.3,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 0.6,
+      "text": "Honest review time. Charlotte versus the vacuum cleaner."
+    },
+    {
+      "t": 5.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 7,
+      "sfx": "pop"
+    },
+    {
+      "t": 7,
+      "text": "One star. It's loud, and it lives in the cupboard."
+    },
+    {
+      "t": 11,
+      "sfx": "pop"
+    },
+    {
+      "t": 11,
+      "text": "She chased it. It won. Every single time."
+    },
+    {
+      "t": 14.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 14.5,
+      "text": "Would she bark at it again? Absolutely."
+    },
+    {
+      "t": 18,
+      "sfx": "pop"
+    },
+    {
+      "t": 18,
+      "text": "And dinner? Five stars, only if it's on time."
+    },
+    {
+      "t": 22.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 22.8,
+      "text": "PETTO reminds you, so dinner is never late."
+    },
+    {
+      "t": 23.6,
+      "sfx": "pop"
+    },
+    {
+      "t": 25.2,
+      "sfx": "ding"
+    },
+    {
+      "t": 26,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 26.5,
+      "text": "PETTO. Free on iOS and Android."
+    }
+  ]
+}

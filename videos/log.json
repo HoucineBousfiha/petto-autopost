@@ -12,5 +12,12 @@
   {"date": "2026-10-29", "idea": "Fun: honest review - cat rates the new bed 1 star, the box 5 stars", "voice": "af_bella", "assets": []},
   {"date": "2026-10-30", "idea": "Tip: Halloween pet safety - candy high, costumes early, quiet room (ask your vet)", "voice": "af_heart", "assets": []},
   {"date": "2026-10-31", "idea": "Fun: Halloween - the stages of putting a pet in a costume", "voice": "am_michael", "assets": ["add-pet-bg.png"]},
-  {"date": "2026-11-01", "idea": "Feature: PETTO home-screen widget - the whole care day at a glance", "voice": "af_heart", "assets": ["widget.png"]}
+  {"date": "2026-11-01", "idea": "Feature: PETTO home-screen widget - the whole care day at a glance", "voice": "af_heart", "assets": ["widget.png"]},
+  {"date": "2026-11-02", "idea": "Fun: honest review - dog rates the vacuum 1 star, dinner on time 5 stars", "voice": "af_bella", "assets": []},
+  {"date": "2026-11-03", "idea": "Tip: three checks before every walk (collar fit, ID tag, water) - ask your vet", "voice": "am_michael", "assets": []},
+  {"date": "2026-11-04", "idea": "Feature: vet records in one place - boosters, allergies, visits", "voice": "af_heart", "assets": ["healt-records-sreen.png"]},
+  {"date": "2026-11-05", "idea": "Fun: things your cat is judging you for", "voice": "am_michael", "assets": []},
+  {"date": "2026-11-06", "idea": "Feature: overdue list on the home screen - tick off, reminders, one list per pet", "voice": "af_bella", "assets": ["home-screen.png"]},
+  {"date": "2026-11-07", "idea": "Tip: three rainy-day indoor games for dogs (hide treats, snuffle towel, short trick)", "voice": "af_heart", "assets": []},
+  {"date": "2026-11-08", "idea": "Fun: POV you spelled W-A-L-K and the dog heard it", "voice": "af_heart", "assets": []}
 ]

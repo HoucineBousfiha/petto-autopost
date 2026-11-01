@@ -1,0 +1,75 @@
+{
+  "voice": "af_bella",
+  "speed": 1.0,
+  "music_volume": 0.3,
+  "cues": [
+    {
+      "t": 0.3,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 0.6,
+      "text": "Flea treatment. Was that this week, or last week? Nobody remembers."
+    },
+    {
+      "t": 5.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 6.0,
+      "text": "PETTO's home screen shows what's overdue, front and centre."
+    },
+    {
+      "t": 7,
+      "sfx": "pop"
+    },
+    {
+      "t": 10.5,
+      "text": "Breakfast, supplement, walk. Everything lives in one list."
+    },
+    {
+      "t": 15.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 17,
+      "sfx": "pop"
+    },
+    {
+      "t": 17,
+      "text": "Tick things off when they're done."
+    },
+    {
+      "t": 19.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 19.5,
+      "text": "Get reminders for meds and walks."
+    },
+    {
+      "t": 22,
+      "sfx": "pop"
+    },
+    {
+      "t": 22,
+      "text": "One tidy list for each pet."
+    },
+    {
+      "t": 24.5,
+      "text": "Calm days, finally."
+    },
+    {
+      "t": 25,
+      "sfx": "ding"
+    },
+    {
+      "t": 26,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 26.5,
+      "text": "PETTO. Free on iOS and Android."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "voice": "am_michael",
+  "speed": 1.0,
+  "music_volume": 0.3,
+  "cues": [
+    {
+      "t": 0.3,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 0.6,
+      "text": "Quick one before the leash comes out. Three checks, every walk."
+    },
+    {
+      "t": 5.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 6.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 6.5,
+      "text": "One. Does the collar fit? Two fingers should slide under."
+    },
+    {
+      "t": 11,
+      "sfx": "pop"
+    },
+    {
+      "t": 11,
+      "text": "Two. Is the ID tag readable, with your current number?"
+    },
+    {
+      "t": 15.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 15.5,
+      "text": "Three. Pack water, especially on warm days."
+    },
+    {
+      "t": 19,
+      "sfx": "pop"
+    },
+    {
+      "t": 19,
+      "text": "Unsure about your pet's needs? Ask your vet."
+    },
+    {
+      "t": 22.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 22.8,
+      "text": "PETTO keeps walks and reminders in one place."
+    },
+    {
+      "t": 26,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 26.5,
+      "text": "PETTO. Free on iOS and Android."
+    }
+  ]
+}
