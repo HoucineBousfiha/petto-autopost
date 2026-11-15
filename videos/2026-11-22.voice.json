@@ -1,0 +1,71 @@
+{
+  "voice": "am_michael",
+  "speed": 1.0,
+  "music_volume": 0.3,
+  "cues": [
+    {
+      "t": 0.3,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 0.6,
+      "text": "Ever wish your cat came with subtitles? Here you go."
+    },
+    {
+      "t": 1.4,
+      "sfx": "pop"
+    },
+    {
+      "t": 5.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 6.5,
+      "text": "She knocks a pen off the desk. Translation? Look at me. Now."
+    },
+    {
+      "t": 6.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 11.5,
+      "text": "She sits on your keyboard. Meaning, work is over."
+    },
+    {
+      "t": 11.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 15.5,
+      "text": "And that stare at the empty bowl? You're late. Again."
+    },
+    {
+      "t": 15.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 21,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 21.4,
+      "text": "PETTO reminds you first, so the bowl's never empty."
+    },
+    {
+      "t": 22.3,
+      "sfx": "pop"
+    },
+    {
+      "t": 24.3,
+      "sfx": "ding"
+    },
+    {
+      "t": 26,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 26.5,
+      "text": "PETTO. Free on iOS and Android."
+    }
+  ]
+}

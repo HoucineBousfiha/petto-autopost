@@ -1,0 +1,75 @@
+{
+  "voice": "am_michael",
+  "speed": 1.0,
+  "music_volume": 0.3,
+  "cues": [
+    {
+      "t": 0.3,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 0.6,
+      "text": "Chilly walks coming up? Here are three quick checks."
+    },
+    {
+      "t": 1.4,
+      "sfx": "pop"
+    },
+    {
+      "t": 5.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 6.0,
+      "text": "Before you head out."
+    },
+    {
+      "t": 8,
+      "sfx": "pop"
+    },
+    {
+      "t": 8.0,
+      "text": "One. On really cold days, keep walks a bit shorter."
+    },
+    {
+      "t": 12,
+      "sfx": "pop"
+    },
+    {
+      "t": 12.0,
+      "text": "Two. Wipe their paws after salty or gritty pavements."
+    },
+    {
+      "t": 16,
+      "sfx": "pop"
+    },
+    {
+      "t": 16.0,
+      "text": "Three. Shivering or lifting paws? Time to head home."
+    },
+    {
+      "t": 21,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 21.4,
+      "text": "Not sure what's right for your pet? Ask your vet."
+    },
+    {
+      "t": 22.3,
+      "sfx": "pop"
+    },
+    {
+      "t": 24.3,
+      "sfx": "ding"
+    },
+    {
+      "t": 26,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 26.5,
+      "text": "PETTO. Free on iOS and Android."
+    }
+  ]
+}

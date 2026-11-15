@@ -1,0 +1,75 @@
+{
+  "voice": "af_heart",
+  "speed": 1.0,
+  "music_volume": 0.3,
+  "cues": [
+    {
+      "t": 0.3,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 0.6,
+      "text": "Ever wonder what your dog gets up to when you leave for work?"
+    },
+    {
+      "t": 1.4,
+      "sfx": "pop"
+    },
+    {
+      "t": 5.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 6.0,
+      "text": "This is Biscuit. He's reporting live from the window."
+    },
+    {
+      "t": 7,
+      "sfx": "pop"
+    },
+    {
+      "t": 10,
+      "sfx": "pop"
+    },
+    {
+      "t": 10.0,
+      "text": "A leaf moved. He handled it. Then the mail. Also handled."
+    },
+    {
+      "t": 12.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 16,
+      "sfx": "pop"
+    },
+    {
+      "t": 16.0,
+      "text": "And by four o'clock, there's only one topic. Dinner."
+    },
+    {
+      "t": 18.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 21,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 21.4,
+      "text": "PETTO reminds you on time, so dinner's never late."
+    },
+    {
+      "t": 24.3,
+      "sfx": "ding"
+    },
+    {
+      "t": 26,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 26.5,
+      "text": "PETTO. Free on iOS and Android."
+    }
+  ]
+}

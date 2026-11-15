@@ -1,0 +1,63 @@
+{
+  "voice": "af_heart",
+  "speed": 1.0,
+  "music_volume": 0.3,
+  "cues": [
+    {
+      "t": 0.3,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 0.6,
+      "text": "One dog, one parrot, and one very busy owner. Sound familiar?"
+    },
+    {
+      "t": 5.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 6.0,
+      "text": "In PETTO, every pet gets their very own care list."
+    },
+    {
+      "t": 7,
+      "sfx": "pop"
+    },
+    {
+      "t": 10.3,
+      "text": "Switch between Charlotte and Kiwi in a single tap."
+    },
+    {
+      "t": 10.3,
+      "sfx": "tap"
+    },
+    {
+      "t": 16,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 16.5,
+      "text": "Dogs, cats, birds, rabbits, even tortoises. All pets are welcome."
+    },
+    {
+      "t": 17,
+      "sfx": "pop"
+    },
+    {
+      "t": 20.8,
+      "text": "Meals, meds and walks stay sorted for every single one."
+    },
+    {
+      "t": 20.8,
+      "sfx": "ding"
+    },
+    {
+      "t": 26,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 26.5,
+      "text": "PETTO. Free on iOS and Android."
+    }
+  ]
+}

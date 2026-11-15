@@ -1,0 +1,75 @@
+{
+  "voice": "am_michael",
+  "speed": 1.0,
+  "music_volume": 0.3,
+  "cues": [
+    {
+      "t": 0.3,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 0.6,
+      "text": "Monday morning. You, versus your cat."
+    },
+    {
+      "t": 1.4,
+      "sfx": "pop"
+    },
+    {
+      "t": 5.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 6.0,
+      "text": "Six thirty. Your alarm goes off. Your cat? Still asleep."
+    },
+    {
+      "t": 6.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 10.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 10.5,
+      "text": "You've got coffee and emails. She's found a sunnier spot."
+    },
+    {
+      "t": 14.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 14.5,
+      "text": "Meetings all morning. She stared at a wall. Very busy."
+    },
+    {
+      "t": 18.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 18.5,
+      "text": "And lunch? She wants second breakfast."
+    },
+    {
+      "t": 21,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 21.4,
+      "text": "PETTO keeps her schedule, so you can survive yours."
+    },
+    {
+      "t": 24,
+      "sfx": "ding"
+    },
+    {
+      "t": 26,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 26.5,
+      "text": "PETTO. Free on iOS and Android."
+    }
+  ]
+}

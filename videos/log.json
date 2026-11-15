@@ -19,5 +19,12 @@
   {"date": "2026-11-05", "idea": "Fun: things your cat is judging you for", "voice": "am_michael", "assets": []},
   {"date": "2026-11-06", "idea": "Feature: overdue list on the home screen - tick off, reminders, one list per pet", "voice": "af_bella", "assets": ["home-screen.png"]},
   {"date": "2026-11-07", "idea": "Tip: three rainy-day indoor games for dogs (hide treats, snuffle towel, short trick)", "voice": "af_heart", "assets": []},
-  {"date": "2026-11-08", "idea": "Fun: POV you spelled W-A-L-K and the dog heard it", "voice": "af_heart", "assets": []}
+  {"date": "2026-11-08", "idea": "Fun: POV you spelled W-A-L-K and the dog heard it", "voice": "af_heart", "assets": []},
+  {"date": "2026-11-16", "idea": "Fun: POV you left for work - Biscuit texts live updates from the window, then dinner", "voice": "af_heart", "assets": []},
+  {"date": "2026-11-17", "idea": "Tip: chilly walks - shorter walks on very cold days, wipe paws after salt, watch for shivering (ask your vet)", "voice": "am_michael", "assets": ["auth-screen-bg.png"]},
+  {"date": "2026-11-18", "idea": "Feature: no forms - describe your pet in your own words, PETTO builds the daily routine", "voice": "af_bella", "assets": ["describe-screen-add-pet.png", "you're-all-set-screen.png"]},
+  {"date": "2026-11-19", "idea": "Fun: day vs day - Monday morning, you vs your cat (alarm, emails, meetings, second breakfast)", "voice": "am_michael", "assets": ["petto-plus-bg-img.png"]},
+  {"date": "2026-11-20", "idea": "Feature: multi-pet - switch between Charlotte the dog and Kiwi the parrot, each with their own care list", "voice": "af_heart", "assets": ["switch-btwn-pets.png", "ai-loading-illustration.png"]},
+  {"date": "2026-11-21", "idea": "Tip: holiday feast - keep cooked bones, onion and garlic, and fatty leftovers out of reach (ask your vet)", "voice": "af_bella", "assets": ["ai-assistant-screen3.png"]},
+  {"date": "2026-11-22", "idea": "Fun: cat to human translation - pen off the desk, sitting on the keyboard, staring at the empty bowl", "voice": "am_michael", "assets": []}
 ]

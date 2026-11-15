@@ -1,0 +1,75 @@
+{
+  "voice": "af_bella",
+  "speed": 1.0,
+  "music_volume": 0.3,
+  "cues": [
+    {
+      "t": 0.3,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 0.6,
+      "text": "Big holiday meal coming up? Keep your pet's plate simple."
+    },
+    {
+      "t": 5.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 6.0,
+      "text": "Three things to keep out of reach."
+    },
+    {
+      "t": 9,
+      "sfx": "pop"
+    },
+    {
+      "t": 9.0,
+      "text": "First, cooked bones. They can splinter."
+    },
+    {
+      "t": 12,
+      "sfx": "pop"
+    },
+    {
+      "t": 12.0,
+      "text": "Second, anything with onion or garlic."
+    },
+    {
+      "t": 15,
+      "sfx": "pop"
+    },
+    {
+      "t": 15.0,
+      "text": "Third, rich, fatty leftovers. Upset tummies, no fun."
+    },
+    {
+      "t": 18,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 18.5,
+      "text": "Not sure about a food? Ask PETTO, then ask your vet."
+    },
+    {
+      "t": 19,
+      "sfx": "pop"
+    },
+    {
+      "t": 23.0,
+      "text": "A little care keeps the holidays happy."
+    },
+    {
+      "t": 23,
+      "sfx": "ding"
+    },
+    {
+      "t": 26,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 26.5,
+      "text": "PETTO. Free on iOS and Android."
+    }
+  ]
+}
