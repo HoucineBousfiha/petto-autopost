@@ -1,0 +1,75 @@
+{
+  "voice": "af_bella",
+  "speed": 1.0,
+  "music_volume": 0.3,
+  "cues": [
+    {
+      "t": 0.3,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 0.6,
+      "text": "POV: your cat's Sunday to-do list. It's a busy one."
+    },
+    {
+      "t": 1.4,
+      "sfx": "pop"
+    },
+    {
+      "t": 5.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 6.0,
+      "text": "First up, knock something off the table."
+    },
+    {
+      "t": 8.0,
+      "sfx": "tap"
+    },
+    {
+      "t": 9.8,
+      "text": "Then, a long nap in the clean laundry."
+    },
+    {
+      "t": 11.4,
+      "sfx": "tap"
+    },
+    {
+      "t": 13.2,
+      "text": "Ignore the expensive new toy, obviously."
+    },
+    {
+      "t": 14.6,
+      "sfx": "tap"
+    },
+    {
+      "t": 16.4,
+      "text": "And yell at five a.m. for absolutely no reason."
+    },
+    {
+      "t": 18.2,
+      "sfx": "tap"
+    },
+    {
+      "t": 21.0,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 21.4,
+      "text": "Your list is easier. PETTO keeps it all in one place."
+    },
+    {
+      "t": 24.3,
+      "sfx": "ding"
+    },
+    {
+      "t": 26.0,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 26.5,
+      "text": "PETTO. Free on iOS and Android."
+    }
+  ]
+}

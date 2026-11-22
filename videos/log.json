@@ -26,5 +26,12 @@
   {"date": "2026-11-19", "idea": "Fun: day vs day - Monday morning, you vs your cat (alarm, emails, meetings, second breakfast)", "voice": "am_michael", "assets": ["petto-plus-bg-img.png"]},
   {"date": "2026-11-20", "idea": "Feature: multi-pet - switch between Charlotte the dog and Kiwi the parrot, each with their own care list", "voice": "af_heart", "assets": ["switch-btwn-pets.png", "ai-loading-illustration.png"]},
   {"date": "2026-11-21", "idea": "Tip: holiday feast - keep cooked bones, onion and garlic, and fatty leftovers out of reach (ask your vet)", "voice": "af_bella", "assets": ["ai-assistant-screen3.png"]},
-  {"date": "2026-11-22", "idea": "Fun: cat to human translation - pen off the desk, sitting on the keyboard, staring at the empty bowl", "voice": "am_michael", "assets": []}
+  {"date": "2026-11-22", "idea": "Fun: cat to human translation - pen off the desk, sitting on the keyboard, staring at the empty bowl", "voice": "am_michael", "assets": []},
+  {"date": "2026-11-23", "idea": "Feature: 'did I give the pill today?' - med reminders on the lock screen, tap to tick off, logged time", "voice": "af_bella", "assets": ["onboarding-reminders.png"]},
+  {"date": "2026-11-24", "idea": "Fun: if your parrot could text you - Kiwi repeats hello, does the microwave, your key hunt, then wants seeds", "voice": "af_heart", "assets": []},
+  {"date": "2026-11-25", "idea": "Tip: three signs your dog needs a nail trim (clicking on floors, nails touch the ground, snagging) - ask your vet or groomer", "voice": "am_michael", "assets": ["onboarding-ready.png"]},
+  {"date": "2026-11-26", "idea": "Fun: Thanksgiving - Mochi the cat's thankful list (the box not the gift, the warm laptop, 3 a.m. zoomies, you at dinner time)", "voice": "af_bella", "assets": ["add-pet-bg.png"]},
+  {"date": "2026-11-27", "idea": "Feature: Ask PETTO AI - it remembers your pet (chicken allergy) and suggests a safe treat, still says ask your vet", "voice": "af_heart", "assets": ["onboarding-ai-history.png"]},
+  {"date": "2026-11-28", "idea": "Tip: guests over this weekend - quiet room, no table scraps from guests, keep meals and walks on schedule (ask your vet)", "voice": "am_michael", "assets": ["screen-bg-shapes.png"]},
+  {"date": "2026-11-29", "idea": "Fun: POV your cat's Sunday to-do list (knock something off the table, nap in clean laundry, ignore the new toy, yell at 5 a.m.)", "voice": "af_bella", "assets": []}
 ]

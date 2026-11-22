@@ -1,0 +1,79 @@
+{
+  "voice": "af_heart",
+  "speed": 1.0,
+  "music_volume": 0.3,
+  "cues": [
+    {
+      "t": 0.3,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 0.6,
+      "text": "What if your parrot could text you? Kiwi's been listening."
+    },
+    {
+      "t": 1.4,
+      "sfx": "pop"
+    },
+    {
+      "t": 5.5,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 6.0,
+      "text": "This is Kiwi. Kiwi says hello. Then says it louder."
+    },
+    {
+      "t": 7.0,
+      "sfx": "pop"
+    },
+    {
+      "t": 9.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 12.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 12.6,
+      "text": "Kiwi also does a great microwave impression."
+    },
+    {
+      "t": 15.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 15.7,
+      "text": "And your morning key hunt? Kiwi's got that too."
+    },
+    {
+      "t": 18.5,
+      "sfx": "pop"
+    },
+    {
+      "t": 19.4,
+      "text": "But mostly, Kiwi wants seeds."
+    },
+    {
+      "t": 21.0,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 21.4,
+      "text": "PETTO reminds you first, so Kiwi doesn't have to."
+    },
+    {
+      "t": 24.3,
+      "sfx": "ding"
+    },
+    {
+      "t": 26.0,
+      "sfx": "whoosh"
+    },
+    {
+      "t": 26.5,
+      "text": "PETTO. Free on iOS and Android."
+    }
+  ]
+}
